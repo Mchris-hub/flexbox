@@ -254,7 +254,7 @@
     flex-shrink: 10;
 }
 
-.flexbasic {
+.flexbasis {
     display: var(--display);
     border: var(--border);
     min-height: var(--min-height);
@@ -262,7 +262,7 @@
     flex-wrap: wrap;
 }
 
-.flexbasic__box {
+.flexbasis__box {
     font-size: var(--font-size);
     color: var(--container-color);
     padding: var(--container-padding);
@@ -274,7 +274,7 @@
     flex-basis: 50%;
 }
 
-.flexbasic__box:nth-child(3n) {
+.flexbasis__box:nth-child(3n) {
     flex-basis: 100%;
 }
 
